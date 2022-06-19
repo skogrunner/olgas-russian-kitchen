@@ -1,0 +1,138 @@
+html {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  background-color: lightpink;
+}
+
+@media only screen and (max-width:800px) {
+  #about img {
+    width:200px;
+    height: 175px;
+    border-radius: 8px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  html {
+    font-size: 12px;
+  }  
+  #about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 6px;
+  }
+  #food img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.content {
+  font-size: 1.5rem;
+}
+ 
+header {
+  position: fixed;
+  width: 99.11%;
+  border-bottom: solid 1px #c6c1c1;
+  background-color: white;
+  z-index: 100;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav li {
+  padding-left: 3.5rem;
+}
+
+nav a {
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #4a4a4a;
+}
+
+.banner {
+  width: 100%;
+  height: 58rem;
+  background-image: url('./images/kitchen.jpg');
+  background-size: cover;
+  background-position: 0% 70%;
+}
+
+.banner h1 {
+  font-family: 'Princess Sofia', cursive;
+  color:darkred;
+  font-size: 6.5rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#about {
+  display: flex;
+  padding-top: 125px;
+}
+
+#about img {
+  width: 400px;
+  height: 350px;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Poor Story', cursive;
+  font-size: 2.5rem;
+}
+
+#about .content p {
+  margin: 20px 30px 0 30px;
+}
+
+#food-section {
+  padding-top: 90px;
+  width: 100%;
+}
+
+#food {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#food .content p {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+  
+#food img {
+  width: 450px;
+  height: 450px;
+  margin: 50px 10px 0px 10px;
+}
+
+#testimonials-section {
+  border: 4px solid darkred;
+  margin-top: 90px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#contact-section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  width: 100%;
+}
+
+.person {
+  font-family: 'Poor Story', cursive;
+}
